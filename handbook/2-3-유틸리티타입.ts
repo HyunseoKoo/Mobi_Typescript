@@ -55,7 +55,7 @@ const x: Record<Page, PageInfo> = {
 };
 
 /**
- * 4. Pick<T,K> [선택적 타입 선택 (?) 1. Partial<T>과 차이점...?]
+ * 4. Pick<T,K>
  * T에서 프로퍼티 K의 집합을 선택해 타입을 구성합니다.
  */
 
@@ -91,7 +91,7 @@ const todo: TodoPreview = {
 };
 
 /** 
- * 6. Exclude<T,U> [일부 타입 제외! (삭제와 같은것...?)]
+ * 6. Exclude<T,U>
  * T에서 U에 할당할 수 있는 모든 속성을 제외한 타입을 구성합니다.
  */
 
